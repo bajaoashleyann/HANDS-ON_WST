@@ -1,0 +1,48 @@
+header{
+    border: 1px solid black;
+    padding: 50px;
+    font-style: 'Courier New';
+    font-size: 30px;
+    color: brown;text-align: center;
+    background-image: url(/IMAGES/COVER.jpg);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+nav ul{
+    list-style-type: none;
+    margin: 1px 0;
+    padding:0;
+    overflow:hidden;
+    background-color: black;
+
+}
+nav li{
+    float: left;
+}
+nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+nav li a:hover:not(.active){
+    background-color: rgba(255, 153, 0, 0.774);
+   
+}
+.active{
+    background-color: #f6b209;
+}
+main h1{
+    text-align: center;
+}
+main p{
+    text-align: justify;
+    padding: 20px 20px;
+    background-color: rgb(255, 153, 0);
+    font-style: 'Times New Roman';
+}
+footer{
+    text-align: center;
+    padding: 5px 5px;
+}
